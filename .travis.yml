@@ -5,7 +5,7 @@ branches:
 
 # Running builds in parallel for lua 5.2 and 5.3
 env:
-- LUA_VERSION=lua5.2
+- LUA_VERSION=lua5.1
 #- LUA_VERSION=lua5.3 Somehow this package is not found on travis build environment
 
 before_install:
